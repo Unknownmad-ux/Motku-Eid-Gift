@@ -1,6 +1,6 @@
 function checkPassword() {
   const password = document.getElementById("password").value;
-  if (password === "Motku_EID") {
+  if (password === "EID_MUBARAK") {
     document.querySelector(".eid-btn").innerHTML = "✓ Access Granted!";
     setTimeout(() => {
       window.location.href = "main.html";
